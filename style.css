@@ -1,0 +1,438 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/* Navbar*/
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 1rem 5rem;
+}
+
+.nav-left{
+   display: flex;
+}
+
+.search{
+   width: 16rem;
+   height: 2rem;
+   display: flex;
+   align-items: center;
+   margin: 1rem;
+   background-color: rgb(225,240,248);
+   border: 1px solid black;
+   padding-left: 0.8rem;
+}
+.nav-left input{
+   border-style: none;
+   width: 100;
+   padding-left: 0.4rem;
+   margin: 1rem;
+   background-color:rgb(225,240,248);
+}
+ .nav-right{
+   display: flex;
+   list-style-type: none;
+   margin-left: 16rem;
+   border-right: 1px solid rgba(0,0,0,0.2);
+}
+.nav-right li{
+   display: flex;
+   margin: 1rem;  
+}
+.nav-right li a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-decoration: none;
+
+}
+.nav-left {
+   display: flex;
+   align-items: center;
+}
+.notification1, .notification2{
+ background-color: red;
+ color: white;
+ height: 1.1rem;
+ width: 1.1rem;
+ border-radius: 1rem;
+ position:absolute;
+ margin: 1rem;
+}
+.notification1{
+   right:32.9%;
+   top: 0;
+}
+.notification2{
+   left:70.7%;
+   top: 0;
+}
+.nav-profile{
+   display: flex;
+   justify-content:space-between;
+}
+.nav-profile img,p{
+   position: relative;
+   margin-left: 2rem;
+}
+.nav-profile img{
+   border-radius: 1rem;
+}
+
+.arrow{
+   position: relative;
+   top:2.7rem;
+   right:2rem;
+}
+
+/* Main */
+
+main{
+   background-color:rgb(240, 237, 237);
+   margin: 1rem;
+   padding:2rem 8rem;
+   height: 80rem;
+   display: flex;
+   justify-content: space-between;
+}
+.section1, .section2, .section3{
+   margin-top: 0.1rem;
+
+}
+
+/*Section 1*/
+
+.section1{
+   width: 15rem;
+   height:45rem;
+   border-radius: 1rem;
+   background-color:white;
+   margin-right: 1rem;
+   border-top-left-radius: 0.6rem;
+   border-top-right-radius: 0.6rem;
+  }
+
+  .div1, .div3{
+   flex-direction: column;
+   border: 1px solid black;
+   border-radius: 1.1rem;
+   margin-bottom: 1rem;
+   height: 22rem;
+   
+  }
+
+  .div3{
+   position: relative;
+   bottom: 7rem;
+   padding-right:2rem;
+  }
+    .div2, .div2-data{
+      display: flex;
+    
+    }
+
+    .div1 h4{
+      text-align: center;
+      position: relative;
+      bottom: 2.8rem;
+     }
+   
+     .div1 p{
+      text-align: center;
+      font-size: 0.8rem;
+      color: gray;
+      position: relative;
+      bottom:2.5rem;
+      right:1rem ;
+     }
+   
+   
+     .div2 p{
+      font-size: 0.9rem;
+      color: gray;
+      position: relative;
+      right: 1.6rem;
+      bottom: 12.8rem;
+     }
+
+     .num{
+      position: relative;
+      bottom: 12.6rem;
+      left: 6.2rem;
+      font-size: 0.8rem;
+      color: blue;
+     }
+   
+
+
+  .div-data p{
+   right: 1.6rem;
+   position: relative;
+   
+   bottom: 12.7rem;
+   
+  }
+
+.div2-data p{
+  right: 1.6rem;
+}
+ 
+.div2-data {
+   color:black;
+   font-size: 0.9rem;
+   position: relative;
+   bottom: 11.6rem;
+   border-bottom: 1px solid black;
+   
+}
+
+
+.div1-data{
+   color: gray;
+   position: relative;
+   bottom: 10rem;
+   right: 1.5rem;
+   font-size: 0.9rem;
+}
+
+
+.div1-data1{
+   right:1.5rem;
+   position: relative;
+   bottom: 10rem;
+   border-bottom: 1px solid black;
+}
+
+.div1-data2{
+   right:1.5rem;
+   position: relative;
+   bottom: 9rem;
+}
+.num1{
+   color: blue;
+   position: relative;
+   left: 1.6rem;
+   font-size: 0.8rem;
+}
+
+.div4{
+   border-bottom: 1px solid black;
+}
+
+  
+.Profile-photo{
+  height: 4rem;
+  border: 1px solid white;
+  border-radius: 12rem;
+  margin-left: 5rem;
+  position: relative;
+  bottom: 3rem;
+}
+ /*Section 2*/
+
+.section2{
+   height: 75rem;
+   width: 40rem;
+   margin-right: 2rem;
+}
+
+.post, .middle, .last{
+   width: 39rem;
+   border: 1px solid black;
+   background-color: white;
+}
+
+.post{
+   height: 7.6rem;
+   border-radius: 0.5rem;
+   
+}
+
+.middle{
+   height: 33rem;
+   margin-top: 1.3rem;
+   
+}
+
+.last{
+   height: 38rem;
+   margin-top: 1rem;
+  
+}
+
+/*Section 3*/
+
+.section3{
+   height: 50rem;
+}
+.section3, right-upper, .right-middle, .right-lower{
+   width: 22rem;
+}
+
+.post img{
+   padding: 2rem;
+   width: 2.5rem;
+   border-radius: 3rem;
+}
+
+.post input{
+   position:relative;
+   bottom: 3rem;
+   padding: 0.3rem;
+   align-items: center;
+   width: 31rem;
+   height: 2rem;
+   border-radius: 3rem;
+}
+.post-data, .middle ul, .last ul{
+   position: relative;
+   bottom: 2rem;
+   display: flex;
+   list-style: none;
+   
+}
+
+.post-data li a, .middle li a, .last li a{
+   text-decoration: none;
+   margin: 2.6rem;
+   margin-left: 2.9rem;
+}
+
+.middle1, .last1{
+   display: flex;
+   margin-top: 1rem;
+}
+
+.middle1 h1, .last1 h1{
+   position: relative;
+   margin-left:22rem;
+}
+
+.svg{
+   position: relative;
+   margin-left: 4rem;
+   margin-bottom: 10rem;
+}
+
+.para{
+   margin-left: 1rem;
+   font-size: 105%;
+}
+
+.right-upper, .right-middle, .right-lower{
+   background-color: white;
+}
+.right-upper{
+   height: 20rem;
+}
+
+.right-middle{
+   height: 13rem;
+}
+.right-middle, .right-lower{
+   margin-top: 1rem;
+}
+
+.right-lower{
+   height: 25rem;
+}
+
+.right1{
+   display: flex;
+   justify-content: space-between;
+}
+
+.right-upper1, .right-middle2{
+   display: flex;
+   padding-top:0.6rem ;
+}
+
+.headline{
+   position: relative;
+   margin-left: 0.8rem;
+   font-size: 110%;
+}
+
+.svg-right{
+   margin-left: 12rem;
+}
+
+.dot{
+   margin-left: 2rem;
+}
+.right-upper2, .right-middle2{
+   display: flex;
+   margin-top: 0.8rem;
+}
+.right-upper2-1 p, .right-middle2-1 p{
+   margin-left: 3.2rem;
+}
+
+.middle2, .last2{
+   position: relative;
+   right: 2.4rem;
+   display: flex;
+}
+
+.middle1 ul li{
+   justify-content: flex-start;
+}
+
+.middle2-data{
+  margin-left: 1rem;
+}
+  
+.headline2{
+   margin-left: 0.8rem;
+   font-size: 1.2rem;
+}
+
+.svg-middle{
+   margin-left: 5rem;
+   padding-top: 0.3rem;
+   
+}
+
+.right-lower2, .right-lower3{
+   display: flex;
+   margin-top: 1rem;
+}
+
+
+
+.right-lower2 h6{
+   font-size: 0.9rem;
+   margin-left: 0.4rem;
+   margin-top: 1rem;
+   font-size: 1rem;
+}
+
+.svg-lower{
+   margin-left: 13rem;
+   margin-top: 1rem;
+}
+
+
+
+.right-lower4{
+   display: flex;
+   flex-direction: column;
+   margin-left: 1rem;
+   margin-top: 0.3rem;
+}
+
+.right-lower4 p{
+   margin-bottom: 0.1rem;
+   margin-left: 0.1rem;
+}
+
+.text{
+   border-radius: 50px;
+   height:2rem ;
+   text-align: center;
+}
+
+
